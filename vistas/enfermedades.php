@@ -1,8 +1,9 @@
 <?php
-include "header.php";
- 
-    
+ session_start();
+ if(isset($_SESSION['usuario'])){
+    include "header.php";
     ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -20,7 +21,7 @@ include "header.php";
 </html>
 <?php
     include "footer.php";
-
-     
-
+ }else{
+     header("location:../index.php");
+ }
 ?>

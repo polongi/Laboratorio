@@ -30,11 +30,10 @@
                                 placeholder="Ingrese sus apellidos" required>
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="carrera" class="font-weight-bold">Sexo:</label>
-                            <select name="carrera" id="carrera" class="form-control">
+                            <label for="sexo" class="font-weight-bold">Sexo:</label>
+                            <select name="sexo" id="sexo" class="form-control">
                                 <option value="Femenino">Femenino</option>
-                                <option value="Masculino">Masculino</option>
-                                <option value="Indistinto">Prefiero no mencionarlo</option>
+                                <option value="Masculino">Masculino</option>                                
                             </select>
                         </div>
                         <div class="form-group col-md-4">
@@ -43,13 +42,13 @@
                                 placeholder="Ingrese un correo electrónico" required>
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="telefonoCasa" class="font-weight-bold">Teléfono de casa:</label>
-                            <input type="text" name="telefonoCasa" id="telefonoCasa" class="form-control"
+                            <label for="tel_movil" class="font-weight-bold">Teléfono de casa:</label>
+                            <input type="text" name="tel_movil" id="tel_movil" class="form-control"
                                 placeholder="10 dígitos" pattern="[0-9]+" MaxLength="10" MinLength="10" required>
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="telefono" class="font-weight-bold">Teléfono celular:</label>
-                            <input type="text" name="telefono" id="telefono" class="form-control"
+                            <label for="tel_casa" class="font-weight-bold">Teléfono celular:</label>
+                            <input type="text" name="tel_casa" id="tel_casa" class="form-control"
                                 placeholder="10 dígitos" pattern="[0-9]+" MaxLength="10" MinLength="10" required>
                         </div>
                         <div class="form-group col-md-12">
@@ -57,19 +56,19 @@
                             <input type="text" name="direccion" id="direccion" class="form-control"
                                 placeholder="Ingrese su dirección" required>
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="claveMuestra" class="font-weight-bold">Clave muestra:</label>
-                            <input type="text" name="claveMuestra" id="claveMuestra" class="form-control"
+                        <div class="form-group col-md-12">
+                            <label for="clave_muestra" class="font-weight-bold">Clave muestra:</label>
+                            <input type="text" name="clave_muestra" id="clave_muestra" class="form-control"
                                 placeholder="Ingrese su clave muestra" required>
                         </div>
-                        <div class="form-group col-md-6">
+                        <!--<div class="form-group col-md-6">
                             <label for="catalogo" class="font-weight-bold">Catálogo de enfermedades:</label>
                             <select name="catalogo" id="catalogo" class="form-control">
                                 <option value="Femenino">Enfermedad-1</option>
                                 <option value="Masculino">Enfermedad-2</option>
                                 <option value="Indistinto">Enfermedad-2</option>
                             </select>
-                        </div>
+                        </div>-->
                         <div class="form-group col-md-6">
                             <label for="usuario" class="font-weight-bold">Nombre de usuario:</label>
                             <input type="text" name="usuario" id="usuario" class="form-control"

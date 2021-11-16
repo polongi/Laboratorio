@@ -4,7 +4,7 @@
          $servidor = "localhost";
          $usuario = "root";
          $password = "";
-         $base = "gestor";
+         $base = "labquae";
 
          $conexion = mysqli_connect($servidor,
          $usuario,

@@ -53,10 +53,13 @@
             url: "procesos/usuario/login/login.php",
             success: function(respuesta) {
                 respuesta = respuesta.trim();
-
-                if (respuesta == 1) {
+                var valor = $('#usuario').val();
+                
+                if (respuesta == 1 && valor=="gaboadm"){
                     window.location = "vistas/inicio.php";
-                } else {
+                }else if(respuesta == 1){
+                    window.location = "vistas/clave_muestra.php";                               
+                }else{
                     swal("Datos incorrectos", "Verifique los datos ingresados", "error");
                 }
             }
